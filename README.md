@@ -1,170 +1,244 @@
-# MindTrack
+<p align="center">
+  <img src="assets/banner.svg" alt="MindTrack — Smart Task Organizer for University Students with ADHD" width="100%"/>
+</p>
 
-**A Smart Task Organizer for University Students with ADHD — powered by AI**
+<h1 align="center">MindTrack</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![AI](https://img.shields.io/badge/AI-Prompt%20Engineering-7C3AED?style=flat-square)](https://github.com/)
-[![License](https://img.shields.io/badge/License-Private%20Graduation%20Project-lightgrey?style=flat-square)](LICENSE)
+<p align="center">
+  <strong>A Smart Task Organizer for University Students with ADHD — powered by AI</strong>
+</p>
 
-> **Portfolio documentation repository** — architecture, features, and curated backend highlights. Full application source is not published here.
+<p align="center">
+  <a href="https://github.com/raghadalb-tech/mindtrack-portfolio"><img src="https://img.shields.io/badge/Portfolio-Public-6d28d9?style=for-the-badge" alt="Public portfolio"/></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
+  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/AI-Prompt%20Engineering-7C3AED?style=for-the-badge" alt="AI"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/raghadalb-tech"><img src="https://img.shields.io/badge/GitHub-raghadalb--tech-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <!-- Replace YOUR_LINKEDIN_URL with your profile link for LinkedIn -->
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Graduation%20Project-64748b?style=for-the-badge" alt="License"/></a>
+</p>
+
+<p align="center">
+  <em>📂 Portfolio documentation — architecture, features & backend highlights · Full source not published</em>
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#core-features">Features</a> •
+  <a href="#system-architecture">Architecture</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#my-technical-contributions-as-a-full-stack-developer">My Work</a> •
+  <a href="#code-highlights">Code</a>
+</p>
 
 ---
 
 ## Overview
 
-**MindTrack** is a graduation project that helps university students—especially those with **ADHD**—plan, break down, and complete academic work without cognitive overload. Instead of a flat to-do list, the app turns large assignments into **small, actionable steps**, supports **focus sessions**, and tracks **progress** with encouragement suited to executive-function challenges.
+**MindTrack** is a graduation project that helps university students—especially those with **ADHD**—plan, break down, and complete academic work without cognitive overload.
+
+Instead of a flat to-do list, the app turns large assignments into **small, actionable steps**, supports **focus sessions**, and tracks **progress** with encouragement suited to executive-function challenges.
+
+<p align="center">
+  <img src="assets/app-mockup.svg" alt="MindTrack illustrative app mockup" width="92%"/>
+</p>
 
 ### Target audience
 
-| Audience | Need addressed |
-|----------|----------------|
-| University students with ADHD | Overwhelm from big tasks, time blindness, difficulty starting |
-| Neurotypical students (secondary) | Structured planning and accountability for heavy course loads |
+| | |
+|:---:|:---|
+| 🎯 **Primary** | University students with ADHD — overwhelm, time blindness, difficulty starting |
+| 📚 **Secondary** | Neurotypical students needing structured planning for heavy course loads |
 
-Design principles reflected in the product: **short AI responses**, **one next step at a time**, **clear priorities from real deadlines**, and **non-punitive error messaging** when services are unavailable.
+<table>
+<tr>
+<td width="50%" bgcolor="#ede9fe">
+
+**Design for ADHD**
+
+- Short AI responses  
+- One next step at a time  
+- Clear deadline priorities  
+
+</td>
+<td width="50%" bgcolor="#ccfbf1">
+
+**Built for trust**
+
+- Non-punitive errors when AI is busy  
+- Real task context in prompts  
+- Secure JWT-backed API  
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Core features
 
-- **AI task breakdown** — Natural-language tasks are decomposed into ordered subtasks via prompt-engineered workflows, with JSON validation and persistence.
-- **Focus mode** — Timed focus sessions linked to tasks, with tracking for daily habits and gamification hooks.
-- **Progress tracking** — Task/subtask completion, mood check-ins, badges, and streak-style engagement for sustained use.
-- **Maya AI assistant** — Context-aware chat grounded in the user’s real schedule, deadlines, and reminders (Arabic-first, ADHD-friendly tone).
-- **Rescue & reminders** — Proactive checks and smart reminder suggestions when workloads or overdue items pile up.
-- **Security & middleware** — JWT authentication, structured exception handling, request logging, and CORS policies for a production-style API surface.
+<p align="center">
+  <img src="assets/features-overview.svg" alt="MindTrack core features overview" width="100%"/>
+</p>
+
+| Feature | What it does |
+|---------|----------------|
+| 🧠 **AI task breakdown** | Decomposes tasks into ordered subtasks via prompt-engineered workflows + JSON validation |
+| ⏱️ **Focus mode** | Timed sessions linked to tasks, habit tracking, gamification hooks |
+| 📊 **Progress tracking** | Tasks, subtasks, mood check-ins, badges & streaks |
+| 💬 **Maya AI assistant** | Arabic-first coaching grounded in real schedule & deadlines |
+| 🆘 **Rescue & reminders** | Proactive checks & smart reminder suggestions |
+| 🔐 **Security layer** | JWT auth, middleware, structured exception handling, CORS |
 
 ---
 
 ## System architecture
 
-High-level flow from client to data and AI services:
-
 ```mermaid
-flowchart TB
-    subgraph Client["Client Layer"]
-        APP["Mobile / Web App"]
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ede9fe', 'primaryTextColor': '#4c1d95', 'primaryBorderColor': '#7c3aed', 'lineColor': '#0d9488', 'secondaryColor': '#ccfbf1', 'tertiaryColor': '#f1f5f9'}}}%%
+flowchart LR
+    subgraph Client["📱 Client"]
+        APP["Flutter App"]
     end
 
-    subgraph API["FastAPI Backend"]
-        MW["Middleware\n(logging, CORS, errors)"]
-        AUTH["Auth & JWT"]
-        ROUTES["Routers\n(tasks, focus, mood, AI)"]
-        MW --> AUTH --> ROUTES
+    subgraph API["⚡ FastAPI"]
+        MW["Middleware"]
+        AUTH["JWT Auth"]
+        R["Routers"]
+        MW --> AUTH --> R
     end
 
-    subgraph Data["Data Layer"]
-        PG[("PostgreSQL")]
+    subgraph Data["🗄️ Data"]
+        DB[("PostgreSQL")]
     end
 
-    subgraph AI["AI Layer"]
-        PROMPT["Prompt templates\n& context builders"]
-        LLM["LLM Provider API\n(mocked in snippets)"]
-        PROMPT --> LLM
+    subgraph AI["🤖 AI"]
+        P["Prompts"]
+        L["LLM API"]
+        P --> L
     end
 
-    APP -->|HTTPS + Bearer token| MW
-    ROUTES --> PG
-    ROUTES --> PROMPT
+    APP -->|HTTPS| MW
+    R --> DB
+    R --> P
 ```
 
-### Repository layout (this docs repo)
+<details>
+<summary><strong>📁 Repository layout</strong></summary>
 
 ```
-mindtrack-docs/
-├── README.md                 # Project overview (this file)
-├── .gitignore
-├── core_snippets/            # Curated, redacted backend highlights
-│   ├── 01_request_logging_middleware.py
-│   ├── 02_tasks_api_route.py
-│   └── 03_ai_task_breakdown_service.py
-├── docs/
-│   └── architecture.md       # Extended architecture notes
-└── assets/                   # Diagrams, screenshots (add as needed)
+mindtrack-portfolio/
+├── README.md
+├── assets/              # Banners & illustrations (SVG)
+├── core_snippets/       # Curated FastAPI highlights
+├── docs/architecture.md
+└── .env.example
 ```
 
-Copy [`.env.example`](.env.example) to `.env` locally when experimenting with snippets (never commit `.env`).
-
-### Screenshots
-
-_Add app screenshots to `assets/` and uncomment the lines below._
-
-<!--
-![MindTrack Home](assets/home.png)
-![AI Task Breakdown](assets/ai-chunk.png)
--->
+</details>
 
 ---
 
 ## Tech stack
 
-| Layer | Technologies |
-|-------|----------------|
-| **Runtime** | Python 3.11+ |
-| **API** | FastAPI, Pydantic, Uvicorn |
-| **Database** | PostgreSQL (production target); SQLite used in early prototype |
-| **Auth** | JWT (access + refresh), salted password hashing |
-| **AI** | Prompt engineering, structured JSON outputs, timeouts & graceful fallbacks |
-| **Ops** | Environment-based config, structured logging, global exception handlers |
+<p align="center">
+
+| Layer | Stack |
+|:------:|:------|
+| ⚙️ **Runtime** | Python 3.11+ |
+| 🚀 **API** | FastAPI · Pydantic · Uvicorn |
+| 🗄️ **Database** | PostgreSQL *(target)* · SQLite *(prototype)* |
+| 🔑 **Auth** | JWT access/refresh · salted password hashing |
+| 🤖 **AI** | Prompt engineering · JSON outputs · timeouts & fallbacks |
+| 🛡️ **Ops** | Env config · structured logging · global exception handlers |
+
+</p>
 
 ---
 
 ## My technical contributions as a Full-Stack Developer
 
-This section summarizes **backend ownership** in MindTrack. Snippets in [`core_snippets/`](core_snippets/) illustrate patterns; they use **mock configuration** and contain **no secrets**.
+> Snippets in [`core_snippets/`](core_snippets/) use **mock config** — no API keys or secrets.
 
 ### FastAPI backend APIs
 
-- Designed a **modular router layout** (`/auth`, `/tasks`, `/ai`, `/focus`, `/gamification`, `/mood`, `/admin`) with consistent dependency injection for the current user.
-- Implemented **lifespan hooks** for database initialization and health checks at startup.
-- Built **REST endpoints** for CRUD on tasks/subtasks, profile settings, focus sessions, and admin operations with role-based access.
-- Added **global `HTTPException` and catch-all handlers** so clients always receive predictable JSON error bodies.
+- **Modular routers** — `/auth` · `/tasks` · `/ai` · `/focus` · `/gamification` · `/mood` · `/admin`
+- **Lifespan hooks** — DB init & health checks at startup
+- **REST endpoints** — CRUD, profile, focus sessions, admin (role-based)
+- **Error contract** — Global handlers → predictable JSON for clients
 
 ### PostgreSQL database design
 
-> **Note:** Portfolio snippets target **PostgreSQL**. The private graduation monorepo prototype uses **SQLite** (`database.py`) with the same relational model and migration pattern.
+> Portfolio snippets target **PostgreSQL**. Private prototype uses **SQLite** with the same relational model.
 
-- Modeled **users, tasks, subtasks, sessions, reminders, mood entries, gamification, and AI interaction logs** with referential integrity.
-- Used **versioned schema migrations** for non-destructive evolution (new columns, indexes, session tables) without data loss.
-- Optimized common paths with **indexes on foreign keys** (e.g. `task_id` on subtasks) and WAL-friendly connection settings for concurrency.
+- Users, tasks, subtasks, sessions, reminders, mood, gamification, AI logs
+- **Versioned migrations** — non-destructive schema evolution
+- **Indexes** on foreign keys & WAL-friendly settings
 
 ### AI prompt workflows
 
-- **Task chunking**: System prompts that enforce small steps, JSON-only responses, and post-processing/cleaning before DB insert.
-- **Context injection**: Builders that serialize the user’s real tasks, deadlines, and reminders into Arabic structured context for the model.
-- **Reliability**: Thread-pool timeouts, `asyncio.wait_for` on routes, friendly 503 messages for ADHD-appropriate UX when the model is busy or misconfigured.
-- **Auditability**: Persisted `ai_interactions` rows for feature type, input snapshot, and parsed output for debugging and demos.
+- **Task chunking** — small steps, JSON-only, post-parse validation
+- **Context injection** — real deadlines & reminders in Arabic context
+- **Reliability** — thread timeouts, `asyncio.wait_for`, friendly 503 UX
+- **Audit trail** — `ai_interactions` logging for demos & debugging
 
 ---
 
 ## Code highlights
 
-| File | Demonstrates |
-|------|----------------|
-| [`core_snippets/01_request_logging_middleware.py`](core_snippets/01_request_logging_middleware.py) | ASGI middleware: request ID, latency logging, safe error surface |
-| [`core_snippets/02_tasks_api_route.py`](core_snippets/02_tasks_api_route.py) | Typed FastAPI route, Pydantic models, DB dependency injection |
-| [`core_snippets/03_ai_task_breakdown_service.py`](core_snippets/03_ai_task_breakdown_service.py) | AI service wrapper, prompts, timeouts, mocked API key |
+| | File | Shows |
+|:---:|:-----|:------|
+| 🔧 | [`01_request_logging_middleware.py`](core_snippets/01_request_logging_middleware.py) | Request ID, latency logging, safe errors |
+| 📋 | [`02_tasks_api_route.py`](core_snippets/02_tasks_api_route.py) | Pydantic models, DB injection, REST tasks |
+| 🤖 | [`03_ai_task_breakdown_service.py`](core_snippets/03_ai_task_breakdown_service.py) | Prompts, JSON parse, timeouts, mock LLM |
 
 ---
 
-## Privacy & publication notice
+## Share on LinkedIn
 
-This repository is intended for **GitHub portfolio and academic review**:
+Copy this when posting your portfolio:
 
-- No production `.env`, API keys, or database dumps are included.
-- Snippets are **representative** and may differ slightly from the private monorepo for clarity and redaction.
+```
+🎓 Graduation Project: MindTrack
+A smart task organizer for university students with ADHD — powered by AI.
+
+✅ FastAPI backend · PostgreSQL · AI prompt engineering
+✅ Task breakdown · Focus mode · Progress tracking
+
+🔗 Portfolio: https://github.com/raghadalb-tech/mindtrack-portfolio
+
+#FullStack #FastAPI #Python #AI #ADHD #GraduationProject #SoftwareEngineering
+```
+
+> **Tip:** Replace `YOUR_LINKEDIN_USERNAME` in the LinkedIn badge above with your profile slug, then commit.
+
+---
+
+## Privacy notice
+
+- No production `.env`, API keys, or database dumps
+- Snippets are representative; redacted for public portfolio review
 
 ---
 
 ## Author
 
-**Role:** Full-Stack Developer — MindTrack graduation project  
-**Focus:** FastAPI services, PostgreSQL data model, AI integration, API security and middleware.
+<p align="center">
+  <strong>Raghad</strong> · Full-Stack Developer<br/>
+  <sub>FastAPI · PostgreSQL · AI integration · API security</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/raghadalb-tech"><img src="https://img.shields.io/badge/View-GitHub%20Profile-181717?style=flat-square&logo=github" alt="GitHub profile"/></a>
+</p>
 
 ---
 
-## License
-
-Private graduation project. All rights reserved unless otherwise stated by the institution. Contact the author for collaboration or demo access inquiries.
+<p align="center">
+  <sub>Private graduation project · All rights reserved · <a href="LICENSE">License</a></sub>
+</p>

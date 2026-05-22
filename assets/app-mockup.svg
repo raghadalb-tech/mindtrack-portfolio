@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="MindTrack app mockup">
+  <defs>
+    <linearGradient id="phoneBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#faf5ff"/>
+      <stop offset="100%" style="stop-color:#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:#6d28d9"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="20" fill="#0f172a"/>
+  <text x="40" y="44" fill="#94a3b8" font-family="system-ui" font-size="14">Illustrative UI ∑ Portfolio preview</text>
+  <!-- Phone frame -->
+  <rect x="280" y="60" width="340" height="440" rx="36" fill="#1e293b" stroke="#475569" stroke-width="4"/>
+  <rect x="296" y="88" width="308" height="396" rx="24" fill="url(#phoneBg)"/>
+  <rect x="296" y="88" width="308" height="64" rx="24" fill="url(#header)"/>
+  <text x="320" y="128" fill="#fff" font-family="system-ui" font-size="20" font-weight="700">MindTrack</text>
+  <text x="320" y="180" fill="#5b21b6" font-family="system-ui" font-size="13" font-weight="600">Today's focus</text>
+  <rect x="320" y="192" width="260" height="56" rx="12" fill="#fff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="336" y="224" fill="#334155" font-family="system-ui" font-size="13">∂ Start 25 min focus session</text>
+  <text x="320" y="278" fill="#5b21b6" font-family="system-ui" font-size="13" font-weight="600">AI broke your task into steps</text>
+  <rect x="320" y="290" width="260" height="36" rx="8" fill="#ede9fe"/>
+  <text x="332" y="314" fill="#4c1d95" font-family="system-ui" font-size="12"> Read chapter outline (10 min)</text>
+  <rect x="320" y="334" width="260" height="36" rx="8" fill="#ede9fe"/>
+  <text x="332" y="358" fill="#4c1d95" font-family="system-ui" font-size="12"> Draft 5 bullet summary</text>
+  <rect x="320" y="378" width="260" height="36" rx="8" fill="#d1fae5"/>
+  <text x="332" y="402" fill="#065f46" font-family="system-ui" font-size="12"> Review with Maya AI =¨</text>
+  <!-- Side labels -->
+  <text x="80" y="200" fill="#a78bfa" font-family="system-ui" font-size="14" font-weight="600">ê ADHD-friendly</text>
+  <text x="80" y="224" fill="#94a3b8" font-family="system-ui" font-size="12">One step at a time</text>
+  <text x="640" y="280" fill="#2dd4bf" font-family="system-ui" font-size="14" font-weight="600">AI breakdown í</text>
+  <text x="640" y="304" fill="#94a3b8" font-family="system-ui" font-size="12">Prompt-engineered</text>
+  <line x1="250" y1="210" x2="296" y2="240" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="604" y1="310" x2="640" y2="295" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6 4"/>
+</svg>
