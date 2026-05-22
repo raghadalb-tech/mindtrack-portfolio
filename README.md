@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="MindTrack — Smart Task Organizer for University Students with ADHD" width="100%"/>
+  <img src="assets/logo.png" alt="MindTrack ADHD System Logo" width="300"/>
 </p>
 
-<h1 align="center">MindTrack</h1>
+<p align="center">
+  <img src="assets/banner.svg" alt="MindTrack banner" width="100%"/>
+</p>
+
+<h1 align="center">MindTrack · ADHD System</h1>
 
 <p align="center">
   <strong>A Smart Task Organizer for University Students with ADHD — powered by AI</strong>
@@ -204,7 +208,7 @@ mindtrack-portfolio/
 Copy this when posting your portfolio:
 
 ```
-🎓 Graduation Project: MindTrack
+🎓 Graduation Project: MindTrack · ADHD System
 A smart task organizer for university students with ADHD — powered by AI.
 
 ✅ FastAPI backend · PostgreSQL · AI prompt engineering

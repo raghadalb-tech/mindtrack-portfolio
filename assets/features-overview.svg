@@ -1,53 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-label="MindTrack core features">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" style="stop-color:#312e81"/>
-      <stop offset="100%" style="stop-color:#1e1b4b"/>
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
     </linearGradient>
   </defs>
   <rect width="1100" height="420" rx="16" fill="#0f172a"/>
-  <text x="40" y="48" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Core Features</text>
-  <!-- 6 feature cards -->
+  <text x="40" y="48" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Core Features</text>
   <g transform="translate(40,72)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#6366f1" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#a5b4fc" font-size="28">>à</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">AI Task Breakdown</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">Big tasks ’ small steps</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">JSON-validated subtasks</text>
+    <circle cx="36" cy="36" r="14" fill="#a5b4fc"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">AI Task Breakdown</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">Big tasks to small steps</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">JSON-validated subtasks</text>
   </g>
   <g transform="translate(380,72)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#14b8a6" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#5eead4" font-size="28">ñ</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">Focus Mode</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">Timed sessions per task</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">Habit &amp; streak tracking</text>
+    <circle cx="36" cy="36" r="14" fill="#5eead4"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">Focus Mode</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">Timed sessions per task</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">Habit and streak tracking</text>
   </g>
   <g transform="translate(720,72)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#a855f7" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#d8b4fe" font-size="28">=Ê</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">Progress Tracking</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">Tasks, mood, badges</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">Gamified motivation</text>
+    <circle cx="36" cy="36" r="14" fill="#d8b4fe"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">Progress Tracking</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">Tasks, mood, badges</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">Gamified motivation</text>
   </g>
   <g transform="translate(40,222)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#f472b6" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#f9a8d4" font-size="28">=¬</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">Maya AI Assistant</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">Arabic-first coaching</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">Real schedule context</text>
+    <circle cx="36" cy="36" r="14" fill="#f9a8d4"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">Maya AI Assistant</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">Arabic-first coaching</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">Real schedule context</text>
   </g>
   <g transform="translate(380,222)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#fbbf24" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#fde68a" font-size="28"><˜</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">Rescue &amp; Reminders</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">Overdue workload alerts</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">Smart reminder hints</text>
+    <circle cx="36" cy="36" r="14" fill="#fde68a"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">Rescue and Reminders</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">Overdue workload alerts</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">Smart reminder hints</text>
   </g>
   <g transform="translate(720,222)">
     <rect width="320" height="130" rx="14" fill="url(#card)" stroke="#38bdf8" stroke-width="1.5"/>
-    <text x="20" y="36" fill="#7dd3fc" font-size="28">=</text>
-    <text x="56" y="38" fill="#f1f5f9" font-family="system-ui" font-size="16" font-weight="700">Security Layer</text>
-    <text x="20" y="72" fill="#94a3b8" font-family="system-ui" font-size="13">JWT · middleware · CORS</text>
-    <text x="20" y="96" fill="#94a3b8" font-family="system-ui" font-size="13">Structured API errors</text>
+    <circle cx="36" cy="36" r="14" fill="#7dd3fc"/>
+    <text x="56" y="40" fill="#f1f5f9" font-family="Arial" font-size="16" font-weight="700">Security Layer</text>
+    <text x="20" y="72" fill="#94a3b8" font-family="Arial" font-size="13">JWT, middleware, CORS</text>
+    <text x="20" y="96" fill="#94a3b8" font-family="Arial" font-size="13">Structured API errors</text>
   </g>
 </svg>
