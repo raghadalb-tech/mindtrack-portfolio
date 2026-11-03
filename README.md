@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/raghadalb-tech"><img src="https://img.shields.io/badge/GitHub-raghadalb--tech-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/raghad-abdullah-53b503395"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/raghad-a-53b503395"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Graduation%20Project-64748b?style=for-the-badge" alt="License"/></a>
 </p>
 
@@ -228,7 +228,7 @@ mindtrack-portfolio/
 
 <p align="center">
   <a href="https://github.com/raghadalb-tech"><img src="https://img.shields.io/badge/View-GitHub%20Profile-181717?style=flat-square&logo=github" alt="GitHub profile"/></a>
-  <a href="https://www.linkedin.com/in/raghad-abdullah-53b503395"><img src="https://img.shields.io/badge/LinkedIn-Raghad%20Al--Bishri-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/raghad-a-53b503395"><img src="https://img.shields.io/badge/LinkedIn-Raghad%20Al--Bishri-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"/></a>
 </p>
 
 ---
