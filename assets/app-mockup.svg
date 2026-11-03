@@ -28,7 +28,7 @@
   <text x="80" y="200" fill="#a78bfa" font-family="Arial, sans-serif" font-size="14" font-weight="600">ADHD-friendly</text>
   <text x="80" y="224" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">One step at a time</text>
   <text x="640" y="280" fill="#2dd4bf" font-family="Arial, sans-serif" font-size="14" font-weight="600">AI breakdown</text>
-  <text x="640" y="304" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">Prompt-engineered</text>
+  <text x="640" y="304" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">Small, ordered steps</text>
   <line x1="250" y1="210" x2="296" y2="240" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 4"/>
   <line x1="604" y1="310" x2="640" y2="295" stroke="#14b8a6" stroke-width="2" stroke-dasharray="6 4"/>
 </svg>
